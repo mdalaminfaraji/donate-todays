@@ -136,10 +136,26 @@ hr{
   height: 50vh;
   width: 99%;
   display: flex;
+  gap: 1rem;
   justify-content: space-around;
 }
 .depend{
- 
+ width: 50%;
+ height: 50vh;
+ padding: 1.5rem;
+ border: 1px solid gray;
+}
+ .images{
+ width: 100%;
+ height: 100%;
+}
+.depend-title{
+  font-size: 2rem;
+  padding: 1rem;
+}
+.depend-discription{
+  color: gray;
+  margin-bottom: 10px;
 }
 .update{
   display: flex;
